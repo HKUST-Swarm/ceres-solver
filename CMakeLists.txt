@@ -70,8 +70,8 @@ project(Ceres C CXX)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # Set the default symbol visibility to hidden to unify the behavior among
 # the various compilers and to get smaller binaries
-set(CMAKE_C_VISIBILITY_PRESET hidden)
-set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(CMAKE_C_VISIBILITY_PRESET default)
+set(CMAKE_CXX_VISIBILITY_PRESET default)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN ON)
 
 # NOTE: The 'generic' CMake variables CMAKE_[SOURCE/BINARY]_DIR should not be
